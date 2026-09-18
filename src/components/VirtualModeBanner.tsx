@@ -23,7 +23,7 @@ export default function VirtualModeBanner() {
 
   if (!isVirtualMode) return null;
 
-  const upgradeUrl = "https://console.firebase.google.com/project/decisive-aleph-j7k72/firestore/databases/ai-studio-ace49a47-40ec-4c50-9cf0-e0bbd7ea490e/data?openUpgradeDialog=true";
+  const upgradeUrl = "https://console.firebase.google.com/project/gen-lang-client-0871236748/firestore";
 
   const handleExport = async () => {
     try {

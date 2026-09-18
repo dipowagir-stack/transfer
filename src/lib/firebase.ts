@@ -4,17 +4,17 @@ import { getFirestore } from 'firebase/firestore';
 import { getStorage } from 'firebase/storage';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDKH_FKeXFAGCGq5Zzk5ZiPaAQZVvOpISc",
-  authDomain: "decisive-aleph-j7k72.firebaseapp.com",
-  projectId: "decisive-aleph-j7k72",
-  storageBucket: "decisive-aleph-j7k72.firebasestorage.app",
-  messagingSenderId: "131715485727",
-  appId: "1:131715485727:web:c3127a1b8d17b6591f852a"
+  apiKey: "AIzaSyBuOcNk8ODeL7ZsdE2im0zNcQoo1GhWFm4",
+  authDomain: "gen-lang-client-0871236748.firebaseapp.com",
+  projectId: "gen-lang-client-0871236748",
+  storageBucket: "gen-lang-client-0871236748.firebasestorage.app",
+  messagingSenderId: "5903308790",
+  appId: "1:5903308790:web:fa71654c0a0a56c14519d7"
 };
 
 const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
-export const db = getFirestore(app, "ai-studio-ace49a47-40ec-4c50-9cf0-e0bbd7ea490e");
+export const db = getFirestore(app);
 export const storage = getStorage(app);
 export const googleProvider = new GoogleAuthProvider();
 

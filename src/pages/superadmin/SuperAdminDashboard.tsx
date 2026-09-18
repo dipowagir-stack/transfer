@@ -40,7 +40,7 @@ export default function SuperAdminDashboard() {
             </div>
           </div>
           <a
-            href="https://console.firebase.google.com/project/decisive-aleph-j7k72/firestore/databases/ai-studio-ace49a47-40ec-4c50-9cf0-e0bbd7ea490e/data?openUpgradeDialog=true"
+            href="https://console.firebase.google.com/project/gen-lang-client-0871236748/firestore"
             target="_blank"
             rel="noreferrer"
             className="inline-flex items-center gap-1.5 bg-amber-600 hover:bg-amber-700 text-white font-medium px-3 py-1.5 rounded-lg text-xs transition-colors whitespace-nowrap"
