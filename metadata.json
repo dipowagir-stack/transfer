@@ -1,0 +1,6 @@
+{
+  "name": "SMAS Islam Diponegoro Management System",
+  "description": "Enterprise School Management Platform with Multi-Role Portals and Zero-Leakage Virtual Sandbox Mode",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
